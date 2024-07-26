@@ -1,0 +1,42 @@
+# Weekly Planner Application
+
+This repository contains a Java project for managing tasks by assigning them to time slots on working days. The project is organized into packages and designed with extendibility in mind.
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Package Structure](#package-structure)
+  - [Main Class](#main-class)
+  - [Enum Types](#enum-types)
+  - [WorkEvent and Subclasses](#workevent-and-subclasses)
+  - [Custom Exception](#custom-exception)
+  - [Workweek Class](#workweek-class)
+  - [SchedulerConsole](#schedulerconsole)
+  - [FileUtil](#fileutil)
+- [Type Erasure](#type-erasure)
+- [Benefits of Immutability](#benefits-of-immutability)
+- [Observations and Problematic Design Choices](#observations-and-problematic-design-choices)
+- [Git Instructions](#git-instructions)
+  - [Initialize the Repository](#initialize-the-repository)
+  - [Add and Commit Files](#add-and-commit-files)
+  - [Create a Remote Repository](#create-a-remote-repository)
+  - [Regular Workflow](#regular-workflow)
+
+## Overview
+
+This project is a weekly planner desktop application for managing tasks by assigning them to time slots on working days. The application is structured to facilitate future expansions.
+
+## Package Structure
+
+### Main Class
+
+The `Main` class serves as the entry point of the program, launching the `SchedulerConsole`.
+
+## How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AregVardanyan/hm4-java-projects.git
+   cd am/aua/hm
+   javac Main.java
+   java Main
